@@ -1,0 +1,13 @@
+digraph test_occur_graphviz {
+	node [fillcolor="white:lightblue" shape=egg style=radial]
+	occur1 [label="泄漏" fontname=SimHei]
+	node [fillcolor="white:lightblue" shape=egg style=radial]
+	occur2 [label="引爆" fontname=SimHei]
+	node [fillcolor="white:lightblue" shape=egg style=radial]
+	occur3 [label="着火" fontname=SimHei]
+	node [fillcolor="white:lightblue" shape=egg style=radial]
+	occur5 [label="流淌火" fontname=SimHei]
+	occur1 -> occur2
+	occur2 -> occur3
+	occur3 -> occur5
+}
