@@ -1,7 +1,0 @@
-digraph structs {
-	node [shape=plaintext]
-	run -> intr
-	intr -> runbl
-	runbl -> run
-	run -> kernel
-}
